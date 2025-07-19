@@ -1,12 +1,76 @@
-# React + Vite
+# 📍 Trail Explorer - Vessel Map Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern single-page React app for visualizing vessel trails using **OpenLayers**, **Material UI**, and **Vite**. Users can filter data by date, difficulty, and other metadata, toggle between light/dark themes, and explore the data interactively on a responsive map.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> [🔗 Click to View Deployment](https://map-dash board-cuf0djqik-sammesalamys-projects.vercel.app/)
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** + **Vite**
+- **Material UI** (MUI)
+- **OpenLayers** (interactive mapping)
+- **date-fns** (date formatting)
+- **GitHub** for version control
+- **Vercel** or **Netlify** for deployment
+
+## 📂 Features
+
+- ✅ Vessel trail visualization on map (OpenLayers)
+- ✅ Responsive layout and modern UI (Material UI)
+- ✅ Filter modal with:
+  - Date range selector
+  - Difficulty level
+  - Length range
+  - Name search
+- ✅ Dark/light theme toggle
+- ✅ Tooltips and interactive trail data
+- ✅ Custom font support (`Neutraface2TextGreek`)
+- ✅ Responsive and accessible design
+
+## 📸 Screenshots
+
+> Add a few images after deployment to showcase the UI.
+
+## 📁 Setup Instructions
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/ahmedMesalamy/mapDashboard.git
+cd mapDashboard
+
+# 2. Install dependencies
+npm install
+
+# 3. Run the app locally
+npm run dev
+```
+
+## ⚙️ Build for Production
+
+```bash
+npm run build
+```
+
+Output is in the `dist/` directory.
+
+## 📦 Folder Structure
+
+```
+mapDashboard/
+├── public/                  # Static assets
+├── src/
+│   ├── components/          # Map, Modal, etc.
+│   ├── mock/                # mockData.json
+│   └── App.jsx              # Main component
+├── README.md
+└── vite.config.js
+```
+
+## 👨‍💻 Author
+
+**Ahmed Mesalamy**  
+[GitHub](https://github.com/ahmedMesalamy/mapDashboard)
+
+
